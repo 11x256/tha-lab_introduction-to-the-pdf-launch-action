@@ -1,6 +1,6 @@
 #### MODIFY PDF TO EXECUTE EXE IN WINDOWS
 
-1. Using your Windows VM download the template [PDF file](https://raw.github.com/madsec/tha-lab_introduction-to-the-pdf-launch-action/master/assets/) titled: “launch.pdf”.
+1. Using your Windows VM download the template [PDF file](https://github.com/madsec/tha-lab_introduction-to-the-pdf-launch-action/raw/master/assets/launch.pdf) titled: “launch.pdf”.
 
 2. Open the PDF file “launch.pdf” in Adobe Reader version 9.3.0 to verify that it launches the built in Windows calculator “calc.exe”. Note: Newer versions of Adobe Reader have implemented safe guards against launching arbitrary content, so you will need to install version 9.3.0 per the instructions in the Lab Setup section of this learning module.
 
