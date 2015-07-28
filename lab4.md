@@ -48,12 +48,13 @@
   params.P = "www.thehackeracademy.com" # parameter to pass if F is an application
   ```
 
-    Notice we don’t have to specify the full path to FireFox, as it will be in the user’s PATH and will be located by Windows when the user opens the PDF file. Also note we eliminated the “D” parameter line, as it is not needed for our new script. The last modification is passing the string parameter “www.thehackeracademy.com” to FireFox, which will tell FireFox to open this URL.
+    Notice we don’t have to specify the full path to IceWeasel, as it will be in the user’s PATH and will be located by Windows when the user opens the PDF file. Also note we eliminated the “D” parameter line, as it is not needed for our new script. The last modification is passing the string parameter “www.thehackeracademy.com” to IceWeasel, which will tell IceWeasel to open this URL.
 
 7. Save these changes and execute the “Iceweasel.rb” script to generate a “Iceweasel.pdf” file.
+ * `ruby Iceweasel.rb`
 
 8. Examine the resulting “Iceweasel.pdf” file with your favorite text editor to better understand the changes and what will happen when you open the PDF file in a PDF reader that supports the Launch action.
 
-9. Verify that the PDF file we generated works correctly by opening it in Adobe Reader Version 9.3.0.
+9. Verify that the PDF file we generated works correctly by opening it in Adobe Reader Version 9.3.0. on your Windows VM.
 
 10. This concludes the lab exercise, continue to exercise 5.

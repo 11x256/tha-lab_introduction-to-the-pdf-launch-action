@@ -15,7 +15,7 @@
 
 5. The “calc.rb” script will create a PDF file titled “calc.pdf”. Open this PDF file and examine object 1, as this is where the launch actions for the different OS types occur. Notice that the authors of the script choose to use the file specification options. These file specification options can be found within the PDF specification under section 7.11.2.3 table 43 for your reference. Once you're comfortable with the actions and syntax of the “calc.pdf” file go ahead and close it.
 
-6. Now verify that this PDF file works by testing it on the different Operating Systems you have available. Note that you may need to modify the path on Linux and Unix systems to reflect the correct path for “xcalc”, as described in the comments of the “calc.rb” script and “calc.pdf” file.
+6. Now verify that this PDF file works by testing it on the different Operating Systems you have available. Note that you may need to modify the path on Linux and Unix systems to reflect the correct path for “xcalc”, as described in the comments of the “calc.rb” script and “calc.pdf” file, and even then it may not work on all Linux distros/setups.
 
 7. Generating PDF files by hand in a text editor can be a real pain and this is why I keep reintroducing the Origami-PDF framework into the lab exercises. I would highly recommend you experiment with this framework, as it will save you a bunch of time in generating custom PDF files to use in your PDF attacks.
 
